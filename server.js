@@ -8,7 +8,7 @@
 exports.run = function(expressInstance, port)
 {
     //If passed 'port' is busy, listens on dynamically assigned port.
-    expressInstance.listen(port || process.env.PORT, (err) => {
+    expressInstance.listen(process.env.PORT || port, (err) => {
         if(err)
         {
             console.log("[-]: Error in establishing server connection.");
