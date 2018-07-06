@@ -4,7 +4,7 @@
   "description": "API to handle GariKhata client requests.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Emad Bin Abid",
   "license": "ISC",
