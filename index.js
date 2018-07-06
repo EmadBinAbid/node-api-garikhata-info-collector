@@ -35,6 +35,8 @@ const upload = multer({ storage: storage });
 app.use(express.json());    //To parse json objects sent by the client.
 app.use(cors());            //To resolve cross-origin browser issues.
 
+express.static(__dirname);
+
 //Routes
 userRouter.createRoutes(app, jwt, authentication.verifyToken);
 plotRouter.createRoutes(app, jwt, authentication.verifyToken, upload);
