@@ -2,9 +2,9 @@
   "name": "api-garikhata-info-collector",
   "version": "1.0.0",
   "description": "API to handle GariKhata client requests.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "author": "Emad Bin Abid",
   "license": "ISC",
